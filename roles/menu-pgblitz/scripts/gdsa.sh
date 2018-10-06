@@ -22,9 +22,9 @@ mkdir -p /mnt/tdrive/plexguide/checks 1>/dev/null 2>&1
 tdrive=$( cat /root/.config/rclone/rclone.conf | grep team_drive | head -n1 )
 tdrive="${tdrive:13}"
 
+echo
 echo "Validating $json"
 
-rm -r /mnt/tdrive/plexguide/checks 1>/dev/null 2>&1
 mkdir -p /mnt/tdrive/plexguide/checks 1>/dev/null 2>&1
 
 echo ""

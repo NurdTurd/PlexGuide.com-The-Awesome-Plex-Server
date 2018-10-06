@@ -39,7 +39,7 @@ client_id =
 client_secret =
 scope = drive
 root_folder_id =
-service_account_file = /opt/appdata/pgblitz/keys/unprocessed/$p
+service_account_file = /opt/appdata/pgblitz/keys/processed/$p
 team_drive = $tdrive
 EOF
 
